@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Nav{
+
+    background-color: rgb(86, 86, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f4f4f4;
+}
+
+.Logo{
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+.Link{
+    text-decoration: none;
+    color: #f4f4f4;
+    margin: 20px;
+    padding: 10px;
+}
+
+.Link:hover{
+    background-color: #f4f4f4;
+    color: blueviolet;
+    transition: 0.4s;
+}
